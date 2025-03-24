@@ -1,0 +1,340 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./font-awesome.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: white;
+    }
+
+    .topbar {
+      background-color: #373b43;
+      height: 65px;
+    }
+
+    .navbar a, .logo {
+      float: left;
+      font-size: 14px;
+      color: white;
+      text-align: center;
+      padding: 25px 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .logo {
+      width: 50%;
+      text-align: left;
+    }
+
+    .navbar a:hover {
+      background-color: #ff7361;
+    }
+
+    .breadcrumb {
+      padding: 20px 60px;
+      list-style: none;
+      background-color: #ff7361;
+      margin: 0;
+    }
+
+    /* Display list items side by side */
+    .breadcrumb li {
+      display: inline;
+      color: white;
+      font-size: 16px;
+    }
+
+    /* Add a slash symbol (/) before/behind each list item */
+    .breadcrumb li+li:before {
+      padding: 4px;
+      color: black;
+      content: "/\00a0";
+    }
+
+    /* Add a color to all links inside the list */
+    .breadcrumb li a {
+      color: black;
+      text-decoration: none;
+    }
+
+    /* Add a color on mouse-over */
+    .breadcrumb li a:hover {
+      color: #01447e;
+      text-decoration: underline;
+    }
+
+    .main {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      color: #555;
+      padding-top: 10px;
+      padding-bottom: 30px;
+      margin-top: 145px;
+    }
+
+    .content {
+      height: 100%;
+      padding-top: 30px;
+    }
+
+    .articles {
+      width: 70%;
+      float: left;
+    }
+
+    .sidebar {
+      width: 30%;
+      float: left;
+    }
+
+    .search {
+      padding: 4px 6px;
+      margin-bottom: 5px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #555555;
+      border-radius: 3px;
+      width: 270px;
+      height: 30px;
+      border: 1px solid #cccccc;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    }
+
+    .heading5 {
+      border-top: 1px solid #eeeeee;
+      width: 270px;
+      padding-top: 20px;
+    }
+
+    .categories-list {
+      padding: 0;
+      width: 270px;
+    }
+
+    .categories-list > li {
+      background: url(./cats-icon.png) no-repeat center left;
+      border: none;
+      border-bottom: 1px dashed #eee;
+      padding: 7px 0;
+      padding-left: 25px;
+      list-style: none;
+      margin: 0;
+      font-size: 13px;
+    }
+
+    .paragraph {
+      border-bottom: 1px solid #eeeeee;
+      width: 270px;
+      padding-bottom: 20px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .articles {
+      width: 70%;
+      float: left;
+    }
+
+    .article-content {
+      width: 95%;
+      margin: auto;
+      border-bottom: 1px solid #eeeeee;
+      margin-bottom: 30px;
+      min-height: 400px;
+    }
+
+    .article-info {
+      width: 25%;
+      float: left;      
+    }
+
+    .article-info > p {
+      color: #666b73;
+      font-size: 13px;
+      padding-left: 20px;
+    }
+
+    .article {
+      width: 70%;
+      float: left;
+      color: #555;
+    }
+
+    .article-image {
+      width: 100%;
+      background-color: #f3f3f3;
+      text-align: center;
+    }
+
+    .read-more {
+      padding: 7px;
+      color: white;
+      background-color: #373b43;
+      border: 1px;
+      border-radius: 2px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .social {
+      height: 20px;
+      background-color: #373b43;
+      color: white;
+      text-align: right;
+      padding-right: 100px;
+    }
+
+    .social span {
+      padding-right: 15px;
+    }
+
+    .fixed-bar {
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="fixed-bar">
+    <div class="social">
+      <span>
+        <i class="icon-facebook"></i>
+      </span>
+      <span>
+        <i class="icon-twitter"></i>
+      </span>
+      <span>
+        <i class="icon-google-plus"></i>
+      </span>
+      <span>
+        <i class="icon-pinterest"></i>
+      </span>
+    </div>
+    <div class="topbar">
+      <div class="logo">Site Logo / Title</div>
+      <div class="navbar">
+        <a href="Project-Home.html">HOME</a>
+        <a href="Project-About.html">ABOUT</a>
+        <a href="Project-Blog.html">BLOG</a>
+        <a href="Project-Work.html">WORK</a>
+        <a href="Project-Features.html">FEATURES</a>
+        <a href="Project-Contact.html">CONTACT</a>
+      </div>
+    </div>
+    <div class="breadcrumb-bar">
+      <ul class="breadcrumb">
+        <li><a href="Project-Home.html">HOME</a></li>
+        <li>BLOG</li>
+      </ul>
+    </div>
+  </div>
+  <div style="background-color: #f3f3f3;">
+    <div class="main">
+      <h1>OUR BLOG & IDEAS</h1>
+      <p style="line-height: 22px;">
+        Some day we have genius ideas. This is where we tend to write them down.
+        <br>
+        Take note so you can feel smart as us one day
+      </p>
+    </div>
+  </div>
+  <div class="content">
+    <div class="articles">
+      <div class="article-content">
+        <div class="article-info">
+          <p>
+            <i class="icon-user"></i>
+            Johnny Doey
+          </p>
+          <p>
+            <i class="icon-calendar"></i>
+            December 14, 2024
+          </p>
+          <p>
+            <i class="icon-comments"></i>
+            12 comments
+          </p>
+          <p>
+            <i class="icon-tags"></i>
+            Branding, News, Updates
+          </p>
+        </div>
+        <div class="article">
+          <div class="article-image">
+            <img src="./intelligent_object.svg" width="200" />
+          </div>
+          <h3>We've recently updated our branding portfolio section.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+          <button class="read-more">Read More</button>
+        </div>
+      </div>
+      <div class="article-content">
+        <div class="article-info">
+          <p>
+            <i class="icon-user"></i>
+            Johnny Doey
+          </p>
+          <p>
+            <i class="icon-calendar"></i>
+            December 14, 2024
+          </p>
+          <p>
+            <i class="icon-comments"></i>
+            12 comments
+          </p>
+          <p>
+            <i class="icon-tags"></i>
+            Branding, News, Updates
+          </p>
+        </div>
+        <div class="article">
+          <div class="article-image">
+            <img src="./intelligent_object.svg" width="200" />
+          </div>
+          <h3>We've recently updated our branding portfolio section.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+          <button class="read-more">Read More</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="sidebar">
+      <input type="text" placeholder="Search..." class="search"/>
+      <h5 class="heading5">Categories</h5>
+      <ul class="categories-list">
+        <li>Typography</li>
+        <li>Elements</li>
+        <li>Full Width</li>
+        <li>Pricing Tables</li>
+        <li>Right Sidebar</li>
+        <li>Left Sidebar</li>
+        <li>404 Page</li>
+      </ul>
+      <h5 class="heading5">Text Blurb</h5>
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus eleifend risus ut congue. Pellentesque nec lacus elit.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
